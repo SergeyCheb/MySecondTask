@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityThree">
+
+    <TextView
+        android:id="@+id/str1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="60dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:text="But rising at thy name doth point out thee"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/str2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:text="As his triumphant prize. Proud of this pride,"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/str3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:text="He is contented thy poor drudge to be,"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str2">
+    </TextView>
+
+    <TextView
+        android:id="@+id/str4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:text="To stand in thy affairs, fall by thy side."
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str3">
+    </TextView>
+    <TextView
+        android:id="@+id/str5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:text="No want of conscience hold it that I call"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str4">
+    </TextView>
+
+    <TextView
+        android:id="@+id/str6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="60dp"
+        android:text="Her ‘love’ for whose dear love I rise and fall."
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str5">
+    </TextView>
+
+    <TextView
+        android:id="@+id/str7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="0dp"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:text="William Shakespeare (1564-1616)"
+
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str6">
+    </TextView>
+
+    <TextView
+        android:id="@+id/str8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:text="Thank you!">
+    </TextView>
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="310dp"
+        android:layout_marginLeft="108dp"
+        android:src="@drawable/shakespeare"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/str8">
+    </ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
